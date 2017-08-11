@@ -1,0 +1,149 @@
+08-11 10:10:01.266 6436-6436/? D/TrafficDatabaseHelper: name=org.gearvrf.sample.sceneobjects traffic=0
+08-11 10:10:07.296 31003-31018/? D/DefContainer: Copying /data/local/tmp/org.gearvrf.sample.sceneobjects to base.apk
+08-11 10:10:23.545 960-1173/? D/PackageManager: Renaming /data/app/vmdl1388121723.tmp to /data/app/org.gearvrf.sample.sceneobjects-2
+08-11 10:10:23.728 960-1059/? I/ActivityManager: Force stopping org.gearvrf.sample.sceneobjects appid=10213 user=-1: uninstall pkg
+08-11 10:10:24.526 960-1173/? I/PackageManager: Package org.gearvrf.sample.sceneobjects codePath changed from /data/app/org.gearvrf.sample.sceneobjects-1 to /data/app/org.gearvrf.sample.sceneobjects-2; Retaining data and using new
+08-11 10:10:24.656 960-1173/? I/PackageManager: Running dexopt on: /data/app/org.gearvrf.sample.sceneobjects-2/base.apk pkg=org.gearvrf.sample.sceneobjects isa=arm vmSafeMode=false
+08-11 10:10:24.723 32191-32191/? I/dex2oat: /system/bin/dex2oat --zip-fd=6 --zip-location=/data/app/org.gearvrf.sample.sceneobjects-2/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@org.gearvrf.sample.sceneobjects-2@base.apk@classes.dex --instruction-set=arm --instruction-set-features=div --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=12
+08-11 10:10:31.494 960-1059/? I/ActivityManager: Force stopping org.gearvrf.sample.sceneobjects appid=10213 user=-1: update pkg
+08-11 10:10:31.497 960-1173/? W/PackageManager: Code path for pkg : org.gearvrf.sample.sceneobjects changing from /data/app/org.gearvrf.sample.sceneobjects-1 to /data/app/org.gearvrf.sample.sceneobjects-2
+08-11 10:10:31.497 960-1173/? W/PackageManager: Resource path for pkg : org.gearvrf.sample.sceneobjects changing from /data/app/org.gearvrf.sample.sceneobjects-1 to /data/app/org.gearvrf.sample.sceneobjects-2
+08-11 10:10:31.919 960-1173/? W/PackageManager: Unknown permission com.samsung.android.hmt.permission.READ_SETTINGS in package org.gearvrf.sample.sceneobjects
+08-11 10:10:32.583 960-1173/? I/ActivityManager: Force stopping org.gearvrf.sample.sceneobjects appid=10213 user=0: pkg removed
+08-11 10:10:32.690 960-960/? D/BackupManagerService: Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:32.705 24604-24604/? D/PackageMonitor: onReceive intent : Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 cmp=com.android.settings/.applications.PackageMonitor (has extras) }
+08-11 10:10:32.708 24604-24604/? D/PackageMonitor: onPackageDisappeared : org.gearvrf.sample.sceneobjects
+08-11 10:10:32.855 3039-3039/? I/selfupdeReport: reportLog realtime type = 9, record.size= 1, records = 1502417432||org.gearvrf.sample.sceneobjects|
+08-11 10:10:33.017 3039-3039/? I/nubialog: LoadedApk onReceive() delay:316ms receiver:com.tencent.tmassistant.common.PackageInstallReceiver@33bcab1f intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:33.092 31102-31102/? I/cn.nubia.edge.settings.RemovePackageReceiver: packageName = org.gearvrf.sample.sceneobjects
+08-11 10:10:33.148 31145-31145/? D/SystemUpdateAppReceiver: zxl->--intent--:Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 cmp=cn.nubia.zbiglauncher.preset/cn.nubia.zbiglauncher.logic.InstalledAppMonitor (has extras) }
+08-11 10:10:33.153 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.netdisk/10087 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.153 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.browser.apps/10088 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.153 960-1059/? W/BroadcastQueue: Unable to launch app net.csdn.csdnplus/10141 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.154 960-1059/? W/BroadcastQueue: Unable to launch app com.sina.weibo/10103 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.154 960-1059/? W/BroadcastQueue: Unable to launch app com.tencent.qqlive/10109 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.154 960-1059/? W/BroadcastQueue: Unable to launch app cn.creativept.imageviewer/10208 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:33.555 960-1058/? I/nubialog: LoadedApk onReceive() delay:880ms receiver:com.android.server.InputMethodManagerService$MyPackageMonitor@f282611 intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:33.771 960-960/? I/nubialog: LoadedApk onReceive() delay:1016ms receiver:android.content.pm.RegisteredServicesCache$1@1d829272 intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:33.853 960-960/? D/BackupManagerService: Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:33.862 960-1058/? I/nubialog: LoadedApk onReceive() delay:307ms receiver:com.android.server.accessibility.AccessibilityManagerService$1@30181e5a intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:33.868 960-960/? W/BackupManagerService: Removing schedule queue dupe of org.gearvrf.sample.sceneobjects
+08-11 10:10:34.221 960-1058/? I/nubialog: LoadedApk onReceive() delay:351ms receiver:com.android.server.search.SearchManagerService$MyPackageMonitor@34988ed8 intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:34.225 6964-6984/? D/ZLauncher3: LauncherModel, OP_UPDATE org.gearvrf.sample.sceneobjects
+08-11 10:10:34.251 6964-6984/? W/PackageManager: Failure retrieving resources for org.gearvrf.sample.sceneobjects: Resource ID #0x0
+08-11 10:10:35.057 960-1059/? W/BroadcastQueue: Unable to launch app com.hupu.games/10101 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:35.057 960-1059/? W/BroadcastQueue: Unable to launch app com.sohuvr/10215 for broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:35.059 24604-24604/? D/PackageMonitor: onReceive intent : Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 cmp=com.android.settings/.applications.PackageMonitor (has extras) }
+08-11 10:10:35.060 24604-24604/? D/PackageMonitor: onPackageModified : org.gearvrf.sample.sceneobjects
+08-11 10:10:35.060 24604-24604/? D/PackageMonitor: onPackageAppeared : org.gearvrf.sample.sceneobjects
+08-11 10:10:35.259 6436-6436/? I/nubialog: LoadedApk onReceive() delay:2620ms receiver:cn.nubia.security.traffic.service.TrafficService$5@792a1eb intent:Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:35.428 20002-20002/? I/nubialog: LoadedApk onReceive() delay:2573ms receiver:com.baidu.input.pub.EventReceiver@25d16cd5 intent:Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }
+08-11 10:10:35.456 31102-31102/? I/cn.nubia.edge.settings.RemovePackageReceiver: org.gearvrf.sample.sceneobjects will remove ;add packageName = org.gearvrf.sample.sceneobjects
+08-11 10:10:36.239 960-3412/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.gearvrf.sample.sceneobjects/.SceneObjectActivity} from uid 2000 on display 0
+08-11 10:10:36.283 960-3412/? V/WindowManager: addAppToken: AppWindowToken{21597dab token=Token{15b533fa ActivityRecord{1f55a625 u0 org.gearvrf.sample.sceneobjects/.SceneObjectActivity t10595}}} to stack=3 task=10595 at 0
+08-11 10:10:36.409 960-1064/? V/WindowManager: Adding window Window{fbdf723 u0 Starting org.gearvrf.sample.sceneobjects} at 6 of 12 (after Window{942b2ea u0 org.gearvrf.gvreyepicking/org.gearvrf.gvreyepicking.SampleActivity})
+08-11 10:10:36.497 32369-32369/? I/PMFunc: prepare 0 org.gearvrf.sample.sceneobjects
+08-11 10:10:36.503 960-3906/? I/ActivityManager: Start proc 32369:org.gearvrf.sample.sceneobjects/u0a213 for activity org.gearvrf.sample.sceneobjects/.SceneObjectActivity
+08-11 10:10:36.689 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf.so: unused DT entry: type 0x6ffffffe arg 0x65220
+08-11 10:10:36.689 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf.so: unused DT entry: type 0x6fffffff arg 0x3
+08-11 10:10:36.689 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libassimp.so: unused DT entry: type 0x6ffffffe arg 0x17ff8
+08-11 10:10:36.689 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libassimp.so: unused DT entry: type 0x6fffffff arg 0x2
+08-11 10:10:36.690 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libjav8.so: unused DT entry: type 0x6ffffffe arg 0x3a6804
+08-11 10:10:36.690 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libjav8.so: unused DT entry: type 0x6fffffff arg 0x3
+08-11 10:10:36.820 32369-32369/org.gearvrf.sample.sceneobjects I/gvrf: FRAMEWORK-CPP  HEAD: 30f023f0df495357e76d2b664111f6423c851851
+08-11 10:10:36.823 32369-32369/org.gearvrf.sample.sceneobjects I/gvrf: FRAMEWORK-JAVA HEAD: 30f023f0df495357e76d2b664111f6423c851851
+08-11 10:10:36.848 32369-32369/org.gearvrf.sample.sceneobjects I/GVRActivity: onCreate 21d5862a
+08-11 10:10:36.854 32369-32369/org.gearvrf.sample.sceneobjects I/GVRActivity: trying backend org.gearvrf.OvrActivityDelegate
+08-11 10:10:36.866 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf-oculus.so: unused DT entry: type 0x6ffffffe arg 0x4568
+08-11 10:10:36.867 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf-oculus.so: unused DT entry: type 0x6fffffff arg 0x2
+08-11 10:10:36.867 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libvrapi.so: unused DT entry: type 0x6ffffffe arg 0x148c
+08-11 10:10:36.867 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libvrapi.so: unused DT entry: type 0x6fffffff arg 0x1
+08-11 10:10:36.868 32369-32369/org.gearvrf.sample.sceneobjects I/gvrf: BACKEND_OCULUS-CPP  HEAD: 30f023f0df495357e76d2b664111f6423c851851
+08-11 10:10:36.868 32369-32369/org.gearvrf.sample.sceneobjects I/gvrf: BACKEND_OCULUS-JAVA HEAD: 30f023f0df495357e76d2b664111f6423c851851
+08-11 10:10:36.872 32369-32369/org.gearvrf.sample.sceneobjects E/OvrVrapiActivityHandler: oculus packages missing, assuming vrapi will not work
+08-11 10:10:36.873 32369-32369/org.gearvrf.sample.sceneobjects I/GVRActivity: trying backend org.gearvrf.DaydreamActivityDelegate
+08-11 10:10:37.011 32369-32369/org.gearvrf.sample.sceneobjects I/WebViewFactory: Loading com.google.android.webview version 50.0.2661.86 (code 266108600)
+08-11 10:10:37.116 32369-32369/org.gearvrf.sample.sceneobjects I/cr_LibraryLoader: Time to load native libraries: 47 ms (timestamps 1704-1751)
+08-11 10:10:37.116 32369-32369/org.gearvrf.sample.sceneobjects I/cr_LibraryLoader: Expected native library version number "50.0.2661.86", actual native library version number "50.0.2661.86"
+08-11 10:10:37.172 32369-32369/org.gearvrf.sample.sceneobjects V/WebViewChromiumFactoryProvider: Binding Chromium to main looper Looper (main, tid 1) {2512f393}
+08-11 10:10:37.172 32369-32369/org.gearvrf.sample.sceneobjects I/cr_LibraryLoader: Expected native library version number "50.0.2661.86", actual native library version number "50.0.2661.86"
+08-11 10:10:37.217 32369-32369/org.gearvrf.sample.sceneobjects I/chromium: [INFO:library_loader_hooks.cc(143)] Chromium logging enabled: level = 0, default verbosity = 0
+08-11 10:10:37.288 32369-32369/org.gearvrf.sample.sceneobjects I/cr_BrowserStartup: Initializing chromium process, singleProcess=true
+08-11 10:10:37.338 32369-32369/org.gearvrf.sample.sceneobjects E/ApkAssets: Error while loading asset assets/natives_blob_64.bin: java.io.FileNotFoundException: assets/natives_blob_64.bin
+08-11 10:10:37.338 32369-32369/org.gearvrf.sample.sceneobjects E/ApkAssets: Error while loading asset assets/snapshot_blob_64.bin: java.io.FileNotFoundException: assets/snapshot_blob_64.bin
+08-11 10:10:37.418 32369-32369/org.gearvrf.sample.sceneobjects I/Adreno-EGL: <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LA.BF.1.1.1_RB1.05.01.00.042.030_msm8974_LA.BF.1.1.1_RB1__release_AU ()
+                                                                             OpenGL ES Shader Compiler Version: E031.25.03.06
+                                                                             Build Date: 06/10/15 Wed
+                                                                             Local Branch: mybranch10850153
+                                                                             Remote Branch: quic/LA.BF.1.1.1_rb1.24
+                                                                             Local Patches: NONE
+                                                                             Reconstruct Branch: AU_LINUX_ANDROID_LA.BF.1.1.1_RB1.05.01.00.042.030 + 6151be1 +  NOTHING
+08-11 10:10:37.599 32369-32402/org.gearvrf.sample.sceneobjects W/cr_media: Requires BLUETOOTH permission
+08-11 10:10:37.644 32369-32407/org.gearvrf.sample.sceneobjects E/ActivityThread: Failed to find provider info for com.google.settings
+08-11 10:10:37.651 32369-32369/org.gearvrf.sample.sceneobjects I/art: Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+08-11 10:10:37.652 32369-32369/org.gearvrf.sample.sceneobjects I/art: Rejecting re-init on previously-failed class java.lang.Class<com.android.webview.chromium.WebViewContentsClientAdapter$WebResourceErrorImpl>
+08-11 10:10:37.695 32369-32408/org.gearvrf.sample.sceneobjects D/ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+08-11 10:10:37.717 32369-32369/org.gearvrf.sample.sceneobjects I/art: Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+08-11 10:10:37.717 32369-32369/org.gearvrf.sample.sceneobjects I/art: Rejecting re-init on previously-failed class java.lang.Class<org.chromium.content.browser.FloatingWebActionModeCallback>
+08-11 10:10:37.734 32369-32369/org.gearvrf.sample.sceneobjects D/cr_Ime: [InputMethodManagerWrapper.java:30] Constructor
+08-11 10:10:37.748 32369-32369/org.gearvrf.sample.sceneobjects W/cr_AwContents: onDetachedFromWindow called when already detached. Ignoring
+08-11 10:10:37.749 32369-32369/org.gearvrf.sample.sceneobjects D/cr_Ime: [InputMethodManagerWrapper.java:59] isActive: false
+08-11 10:10:37.770 32369-32369/org.gearvrf.sample.sceneobjects I/cr_Ime: ImeThread is not enabled.
+08-11 10:10:37.782 32369-32369/org.gearvrf.sample.sceneobjects I/GVRConfigurationManager: set the default fov-y to 90.0
+08-11 10:10:37.794 32369-32369/org.gearvrf.sample.sceneobjects D/GVRContext: Running on-restart handler org.gearvrf.GVRAssetLoader$1@2ff8cff5
+08-11 10:10:37.813 32369-32369/org.gearvrf.sample.sceneobjects I/art: Explicit concurrent mark sweep GC freed 5624(366KB) AllocSpace objects, 4(64KB) LOS objects, 39% free, 2MB/4MB, paused 1.372ms total 18.911ms
+08-11 10:10:37.821 32369-32369/org.gearvrf.sample.sceneobjects D/AsyncBitmapTexture.Memory: MemoryClass = 512M
+08-11 10:10:37.822 32369-32369/org.gearvrf.sample.sceneobjects D/AsyncBitmapTexture: Set maxImageSize ==  335,544,320
+08-11 10:10:37.913 32369-32369/org.gearvrf.sample.sceneobjects W/SdkConfigurationReader: VrParamsProvider returned null params, using defaults.
+08-11 10:10:37.918 32369-32419/org.gearvrf.sample.sceneobjects E/libEGL: validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+08-11 10:10:37.942 32369-32369/org.gearvrf.sample.sceneobjects I/GVR: [vr/gvr/capi/src/gvr.cc:96] Initialized GVR version 1.30.0
+08-11 10:10:37.982 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf-daydream.so: unused DT entry: type 0x6ffffffe arg 0x1a50
+08-11 10:10:37.982 32369-32369/org.gearvrf.sample.sceneobjects W/linker: libgvrf-daydream.so: unused DT entry: type 0x6fffffff arg 0x3
+08-11 10:10:37.989 32369-32369/org.gearvrf.sample.sceneobjects I/GVRActivity: handleOnDock
+08-11 10:10:37.991 32369-32369/org.gearvrf.sample.sceneobjects I/nubialog: Instrumentation callActivityOnCreate() delay:1143ms activity:org.gearvrf.sample.sceneobjects.SceneObjectActivity@21d5862a icicle:null
+08-11 10:10:37.991 32369-32369/org.gearvrf.sample.sceneobjects I/GVRActivity: onResume 21d5862a
+08-11 10:10:38.005 32369-32441/org.gearvrf.sample.sceneobjects D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+08-11 10:10:38.014 32369-32369/org.gearvrf.sample.sceneobjects D/Atlas: Validating map...
+08-11 10:10:38.018 960-3508/? V/WindowManager: Adding window Window{1d90a5bd u0 org.gearvrf.sample.sceneobjects/org.gearvrf.sample.sceneobjects.SceneObjectActivity} at 6 of 13 (before Window{fbdf723 u0 Starting org.gearvrf.sample.sceneobjects})
+08-11 10:10:38.024 32369-32369/org.gearvrf.sample.sceneobjects I/nubialog: DispatchMessage in MainLooper, delay:1369ms msg:{ when=-1s473ms what=100 obj=ActivityRecord{25d16cd5 token=android.os.BinderProxy@dc7ab60 {org.gearvrf.sample.sceneobjects/org.gearvrf.sample.sceneobjects.SceneObjectActivity}} target=android.app.ActivityThread$H }
+08-11 10:10:38.038 32369-32408/org.gearvrf.sample.sceneobjects D/ConnectivityManager.CallbackHandler: CM callback handler got msg 524290
+08-11 10:10:38.081 32369-32441/org.gearvrf.sample.sceneobjects I/OpenGLRenderer: Initialized EGL, version 1.4
+08-11 10:10:38.086 32369-32441/org.gearvrf.sample.sceneobjects D/OpenGLRenderer: Enabling debug mode 0
+08-11 10:10:38.102 960-3833/? V/WindowManager: Adding window Window{29c3cfe u0 SurfaceView} at 6 of 14 (before Window{1d90a5bd u0 org.gearvrf.sample.sceneobjects/org.gearvrf.sample.sceneobjects.SceneObjectActivity})
+08-11 10:10:38.165 32369-32437/org.gearvrf.sample.sceneobjects V/GVRViewManager: onSurfaceCreated
+08-11 10:10:38.172 960-1064/? I/ActivityManager: Displayed org.gearvrf.sample.sceneobjects/.SceneObjectActivity: +1s695ms
+08-11 10:10:38.172 960-1064/? I/Timeline: Timeline: Activity_windows_visible id: ActivityRecord{1f55a625 u0 org.gearvrf.sample.sceneobjects/.SceneObjectActivity t10595} time:616102808
+08-11 10:10:38.200 32369-32437/org.gearvrf.sample.sceneobjects D/gvrf: ND: GVRCameraRig.getComponentType = 10006
+08-11 10:10:38.226 32369-32369/org.gearvrf.sample.sceneobjects I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@dc7ab60 time:616102861
+08-11 10:10:38.545 32369-32437/org.gearvrf.sample.sceneobjects D/gvrf: ND: GVRCameraRig.getComponentType = 10006
+08-11 10:10:40.181 32369-32369/org.gearvrf.sample.sceneobjects W/cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 32369
+08-11 10:10:40.680 32369-32437/org.gearvrf.sample.sceneobjects D/AsyncBitmapTexture: Actual GL_MAX_TEXTURE_SIZE = 4096
+08-11 10:10:40.726 32369-32413/org.gearvrf.sample.sceneobjects D/ResourceCache: put resource NEW { gearvr_logo.jpg 7f020003 null } to cache
+08-11 10:10:40.730 32369-32413/org.gearvrf.sample.sceneobjects D/ResourceCacheBase: put resource NEW { gearvr_logo.jpg 7f020003 null } to cache
+08-11 10:10:40.747 32369-32437/org.gearvrf.sample.sceneobjects W/gvrf: createProgram attaching shaders
+08-11 10:10:41.407 32369-32437/org.gearvrf.sample.sceneobjects D/SplashScreen: close()
+08-11 10:10:43.043 32369-32369/org.gearvrf.sample.sceneobjects W/cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 32369
+08-11 10:10:44.682 960-3934/? W/BroadcastQueue: Unable to launch app com.baidu.netdisk/10087 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.683 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.netdisk/10087 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.683 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.browser.apps/10088 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.684 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.browser.apps/10088 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.685 960-1059/? W/BroadcastQueue: Unable to launch app com.nfyg.hsbb/10084 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.685 960-1059/? W/BroadcastQueue: Unable to launch app com.sina.weibo/10103 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:44.685 960-1059/? W/BroadcastQueue: Unable to launch app com.tencent.qqlive/10109 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:45.105 32369-32369/org.gearvrf.sample.sceneobjects W/GVRConfigurationManager: too many usb checks
+08-11 10:10:45.920 32369-32369/org.gearvrf.sample.sceneobjects W/cr_BindingManager: Cannot call determinedVisibility() - never saw a connection for the pid: 32369
+08-11 10:10:46.008 32369-32369/org.gearvrf.sample.sceneobjects D/cr_Ime: [InputMethodManagerWrapper.java:59] isActive: true
+08-11 10:10:46.008 32369-32369/org.gearvrf.sample.sceneobjects D/cr_Ime: [InputMethodManagerWrapper.java:68] hideSoftInputFromWindow
+08-11 10:10:46.068 960-1059/? W/BroadcastQueue: Unable to launch app com.sohuvr/10215 for broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:47.182 32622-32622/? I/cn.nubia.edge.settings.RemovePackageReceiver: null will remove ;add packageName = org.gearvrf.sample.sceneobjects
+08-11 10:10:47.377 32639-32639/? D/SystemUpdateAppReceiver: zxl->--intent--:Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 cmp=cn.nubia.zbiglauncher.preset/cn.nubia.zbiglauncher.logic.InstalledAppMonitor (has extras) }
+08-11 10:10:47.382 32639-32639/? D/SystemUpdateAppReceiver: zxl->packageName:org.gearvrf.sample.sceneobjects
+08-11 10:10:47.383 960-3934/? W/BroadcastQueue: Unable to launch app com.baidu.browser.apps/10088 for broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:47.385 960-1059/? W/BroadcastQueue: Unable to launch app com.baidu.browser.apps/10088 for broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:47.386 960-1059/? W/BroadcastQueue: Unable to launch app com.tencent.qqmusic/10094 for broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:47.386 960-1059/? W/BroadcastQueue: Unable to launch app me.ele/10188 for broadcast Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:org.gearvrf.sample.sceneobjects flg=0x4000010 (has extras) }: process is bad
+08-11 10:10:47.393 32639-32639/? D/UpdateDBService: zxl->actionPackage:replaced packageName:org.gearvrf.sample.sceneobjects
+08-11 10:10:47.393 32639-32658/? D/UpdateDBService: zxl->actionPackage:replaced//packageName:org.gearvrf.sample.sceneobjects
+08-11 10:10:49.435 32369-32369/org.gearvrf.sample.sceneobjects I/chromium: [INFO:CONSOLE(95)] "Uncaught TypeError: Cannot read property 'removeItem' of null", source: https://a.mtstatic.com/deki/javascript/out/community.js?_=1ac1d12e41ca17328199f995b1d23fcfede84652:site_10634 (95)
+08-11 10:10:49.476 32369-32437/org.gearvrf.sample.sceneobjects W/gvrf: createProgram attaching shaders
+08-11 10:11:32.576 32369-32384/org.gearvrf.sample.sceneobjects I/art: Background sticky concurrent mark sweep GC freed 16029(1861KB) AllocSpace objects, 0(0B) LOS objects, 3% free, 48MB/50MB, paused 7.278ms total 36.444ms
